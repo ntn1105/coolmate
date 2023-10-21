@@ -1,0 +1,123 @@
+
+    
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding : 10px 50px;
+}
+.heading2{
+    background-color: #525252;
+    text-align: center;
+    padding: 8px 0 ;
+    color: white;
+    font-family: Pangea,sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.heading2 a{
+    color:white;
+}
+.coolmate_heading{
+    
+    
+}
+.coolmate_link a{
+    padding: 0 15px;
+}
+.heading3{
+    display: flex;
+    background-color:#231f20;
+    padding : 0 30px;
+    justify-content: space-between;
+    
+}
+.NAV{
+    display: flex;
+    color:white;
+    list-style: none;
+    
+    
+
+}
+.NAV li{
+    padding:30px 15px;
+}
+li:hover{
+    background-color: #333;
+    cursor: pointer;
+    transition: 0.5s;
+
+
+}
+.Search{
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 10px;
+}
+.Search input{
+    width: 200px;
+    height: 50px;
+    border: 0;
+   border-radius: 30px ;
+   padding: 0 20px 0 40px;
+   outline: none;
+   
+
+}
+.Search >.fa-solid{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.Search .icon{
+    color: white;
+    font-size: 20px;
+
+}
+.bothicon{
+    display: flex;
+    gap:10px;
+}
+.body1 .banner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left: 0;
+    top: 0;
+}
+
+.body1 {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.returnandnext{
+    position: absolute;
+    display :flex
+   
+   
+
+}   
+    
+.returnandnext .icon1{
+   
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  background-color: transparent;
+ 
+  
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 100px;
+
+
+
+}
